@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #101214;
+    --color-secondary: #171A1F;
+    --color-surface-dark: #202124;
+    --color-card-dark: #171A1F;
+    --color-gold: #C99A3E;
+    --color-gold-light: #E5C36A;
+    --color-gold-dark: #A47B2C;
+    --color-ivory: #F7F4EE;
+    --color-ivory-card: #FFFFFF;
+    --color-dark-text: #202124;
+    --color-muted-text: #9B9B9B;
+    --color-border-dark: rgba(201, 154, 62, 0.3);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading, .font-serif-pro {
+    font-family: Georgia, 'Playfair Display', Cambria, "Times New Roman", Times, serif;
+  }
+}
+
+.font-georgia {
+  font-family: Georgia, serif;
+}
+
+.font-garamond {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Professional Polish Gold Shadow Glow */
+.gold-glow-pro {
+  box-shadow: 0 0 20px rgba(201, 154, 62, 0.22);
+}
+
+.gold-glow-pro:hover {
+  box-shadow: 0 0 25px rgba(201, 154, 62, 0.35);
+}
+
+/* Metallic gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E5C36A 0%, #C99A3E 60%, #F3D993 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Polish Top Accent Card */
+.pro-card-top-accent {
+  border-top: 2px solid #C99A3E;
+}
+
+/* Polish Dark Card Surface */
+.luxury-card-dark {
+  background: #171A1F;
+  border: 1px solid rgba(201, 154, 62, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #101214;
+}
+::-webkit-scrollbar-thumb {
+  background: #202124;
+  border-radius: 2px;
+  border: 1px solid rgba(201, 154, 62, 0.25);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C99A3E;
+}
+

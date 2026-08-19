@@ -1,0 +1,6 @@
+{
+  "name": "JurisBench - Judiciary Exam Preparation",
+  "description": "Modern, premium, conversion-focused homepage for premier Indian State Judiciary, PCS (J), and Civil Judge examination preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
